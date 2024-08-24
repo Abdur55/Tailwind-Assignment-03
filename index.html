@@ -25,7 +25,7 @@
                   </svg>
                   Rinterio</h2>
             </div>
-            <div class="">
+            <div class="max-md:hidden">
                 <a class="m-5 font-bold" href="#">Home</a>
                 <a class="m-5" href="#">Services</a>
                 <a class="m-5" href="#">Portfolio</a>
@@ -33,26 +33,33 @@
                 <a class="m-5" href="#">Contact Us</a>
             </div>
             <div class="">
-               <button class="lg:flex gap-5 font-bold items-center ]"> <div class=" rounded-2xl p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+               <button class="lg:flex gap-5 font-bold items-center ]"> <div class="max-md:hidden rounded-2xl p-1"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
               </svg>
             </div>
-            <div class="">
+            <div class="max-md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
               </svg> 
             </div>          
-              <div class="bg-[#ABEF5F] flex p-2 rounded-3xl gap-1">
+              <div class="bg-[#ABEF5F] flex p-2 rounded-3xl gap-1 max-md:hidden">
               Book Consult <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-black rounded-xl text-white p-1 ">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg> 
             </div>
+
                </button>
             </div>
-            
+
+        </div>
+        <div>
+          <a href="#"><i class='fa fa-bars md:hidden max-md:block'></i></a>
         </div>
     </nav>
     <!-- navbar -------end------>
+    <div>
+      <a href="#"><i class='fa fa-bars md:hidden max-md:block'></i></a>
+    </div>
    </header>
 
 <!-- banner ----start----->
@@ -72,7 +79,7 @@
 
 <!-- banner ----end----->
 
-<!-- We design ----start------->
+<!-- About us ----start------->
 
 <main>
 <section class="py-24 bg-gray-200">
@@ -80,7 +87,8 @@
   <div class="lg:grid lg:grid-cols-2 gap-5">
    <div>
     <div>
-      <button class="lg:flex bg-white rounded-2xl w-24 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <button class="lg:flex bg-white rounded-2xl w-24 ">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
       </svg> About Us
       </button>
@@ -113,7 +121,8 @@
 </div>
   </div>
 </div>
-<!-- We design ----end------->
+
+<!-- About us ----end------->
 
 <!-- How we works ------start-------->
 
@@ -160,7 +169,7 @@
 <section class="mb-14"></section>
 <div class="container mx-auto lg:pl-32 lg:pr-32 mb-20">
   <div class="text-center">
-    <button class="bg-[#ABEF5F] rounded-2xl mb-4 p-1"> <i class="fa fa-long-arrow-right"></i> Explore our Latest works</button>
+    <button class="bg-[#acef5f77] rounded-2xl mb-4 p-1"> <i class="fa fa-long-arrow-right"></i> Explore our Latest works</button>
     <h2 class="font-bold text-4xl mb-3">Our Latest Portfolio</h2>
     <p class="mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
   </div>
@@ -169,7 +178,7 @@
     <div class="lg:col-span-2">
     <div class="lg:flex items-center border rounded-2xl p-5">
       <div>
-        <img src="assets/img1.png" alt="">
+        <img class="w-full" src="assets/img1.png" alt="">
       </div>
       <div class="m-5">
       <h3 class="font-bold mb-4">Commercial</h3>
@@ -182,37 +191,114 @@
     </div>
   </div>
     <div class=" border rounded-2xl p-5">
-      <img class="" src="assets/img2.png" alt="">
+      <img class="w-full" src="assets/img2.png" alt="">
     </div>
   </div>
 
-<div class="lg:grid lg:grid-cols-3 gap-7">
+<div class="lg:grid lg:grid-cols-4 gap-7">
   
   <div class="border rounded-2xl p-7">
-    <img src="assets/img3.png" alt="">
+    <img class="w-full" src="assets/img3.png" alt="">
   </div>
-  <div class="lg:flex items-center border rounded-2xl p-5">
+  <div class="lg:flex items-center border rounded-2xl p-5 col-span-2">
     <div>
-    <img src="assets/img4.png" alt="">
+    <img class="w-full" src="assets/img4.png" alt="">
   </div>
-    <div class="m-5">
-      <h3 class="font-bold mb-4">Commercial</h3>
-      <p class="mb-3">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
-      <button class="lg:flex gap-2 font-bold">View Details<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-[#ABEF5F] rounded-2xl p-1 ">
-        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-      </svg>
-      </button>
+    <div class="">
+      <div class="m-5">
+        <h3 class="font-bold mb-4">Commercial</h3>
+        <p class="mb-3">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+        <button class="lg:flex gap-2 font-bold">View Details<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 bg-[#ABEF5F] rounded-2xl p-1 ">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+        </svg>
+        </button>
+      </div>
     </div>
   </div>
 
   <div class="border rounded-2xl p-5">
-    <img src="assets/img5.png" alt="">
+    <img class="w-full" src="assets/img5.png" alt="">
   </div>
     </div>
 
 </div>
 
 <!-- Explore our Latest ------end------>
+
+<!-- My Experience ------start------>
+
+
+<div class="container mx-auto lg:pl-32 lg:pr-32 mb-10">
+  <div class="text-center mb-8 text-4xl">
+    <h2 class="font-bold ">My Experience</h2>
+  </div>
+  <div class="lg:grid grid-cols-4 gap-5">
+    <div class="border p-5 rounded-3xl shadow-2xl cursor-crosshair hover:bg-blue-200">
+      <div>
+      <img class="mb-4 rounded-l-full" src="assets/img3.png" alt="">
+    </div>
+    <div class="">
+      <div class="mb-3">
+      <span class="fa fa-star checked text-orange-400"></span>
+      <span class="fa fa-star checked text-yellow-500"></span>
+      <span class="fa fa-star checked text-teal-400"></span>
+      <span class="fa fa-star checked text-purple-400"></span>
+    </div>
+      <h3 class="font-bold mb-4">Experience</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+    </div>
+    </div>
+    <div class="border p-5 rounded-3xl shadow-2xl cursor-zoom-in hover:bg-blue-200">
+      <div>
+      <img class="mb-4 rounded-l-full" src="assets/img4.png" alt="">
+    </div>
+    <div class="">
+      <div class="mb-3">
+      <span class="fa fa-star checked text-orange-400"></span>
+      <span class="fa fa-star checked text-yellow-500"></span>
+      <span class="fa fa-star checked text-teal-400"></span>
+      <span class="fa fa-star checked text-purple-400"></span>
+    </div>
+      <h3 class="font-bold mb-4">Experience</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe  veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+    </div>
+    </div>
+    <div class="border rounded-3xl p-5 shadow-2xl cursor-pointer hover:bg-blue-200">
+      <div>
+      <img class="mb-4 rounded-l-full" src="assets/img1.png" alt="">
+    </div>
+    <div class="">
+      <div class="mb-3">
+      <span class="fa fa-star checked text-orange-400"></span>
+      <span class="fa fa-star checked text-yellow-500"></span>
+      <span class="fa fa-star checked text-teal-400"></span>
+      <span class="fa fa-star checked text-purple-400"></span>
+    </div>
+      <h3 class="font-bold mb-4">Experience</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe  veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+    </div>
+    </div>
+    
+    <div class="border rounded-3xl p-5 shadow-2xl hover:bg-blue-200 cursor-move">
+      <div>
+      <img class="mb-4 rounded-l-full" src="assets/img5.png" alt="">
+    </div>
+    <div class="">
+      <div class="mb-4">
+      <span class="fa fa-star checked text-orange-400"></span>
+      <span class="fa fa-star checked text-yellow-500"></span>
+      <span class="fa fa-star checked text-teal-400"></span>
+      <span class="fa fa-star checked text-purple-400"></span>
+    </div>
+      <h3 class="font-bold">Experience</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+    </div>
+    </div>
+  
+  </div>
+</div>
+
+<!-- My Experience ------end------>
 
 <!-- Rinterio News -------start------->
 
@@ -226,16 +312,16 @@
 
       <form class="w-4/6 mx-auto" action="">
         <div class="lg:grid grid-cols-2 gap-4">
-          <div>
+          <div class="mb-5">
             <input class="w-full p-3 rounded-full" type="text" id="fname" name="fname" value="First Name*">
           </div>
-          <div>
+          <div class="mb-5">
             <input class="w-full p-3 rounded-full" type="text" id="fname" name="fname" value="Last Name*">
           </div>
-          <div>
+          <div class="mb-5">
             <input class="w-full p-3 rounded-full" type="text" id="fname" name="fname" value="Phone Number*">
           </div>
-          <div>
+          <div class="mb-5">
             <input class="w-full p-3 rounded-full mb-5" type="text" id="fname" name="fname" value="Email Number*">
           </div>
         </div>
@@ -258,13 +344,13 @@
         Rinterio</h2>
         <p class="text-center text-white mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
   </div>
-  <div class="lg:flex justify-center text-white mb-8">
-    <a class="m-10 font-bold" href="#">Home</a>
-    <a class="m-10" href="#">Services</a>
-    <a class="m-10" href="#">Portfolio</a>
-    <a class="m-10" href="#">Blogs</a>
-    <a class="m-10" href="#">Contact Us</a>
-</div>
+  <ul class="lg:flex justify-center items-center text-white mx-auto gap-8 text-center mb-8">
+    <li><a class="m-10 font-bold" href="#">Home</a></li>
+    <li><a class="m-10 font-bold" href="#">Services</a></li>
+    <li><a class="m-10 font-bold" href="#">Portfolio</a></li>
+    <li><a class="m-10 font-bold" href="#">Blogs</a></li>
+    <li><a class="m-10 font-bold" href="#">Contact Us</a></li>
+  </ul>
 <div class="text-center">
 <button class="bg-[#ABEF5F] text-black p-2 rounded-3xl font-bold">Book Consult <i class="fa fa-long-arrow-right text-white bg- -rotate-45 rounded-2xl p-1 bg-black"></i></button>
 </div>
