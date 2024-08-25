@@ -9,6 +9,17 @@
 
 <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+  theme: {
+    extend: {
+      backgroundImage: {
+        'footer-pattern': "url('assets/bg.jpg')",
+      }
+    }
+  }
+}
+    </script>
 
 </head>
 <body>
@@ -243,7 +254,7 @@
       <span class="fa fa-star checked text-purple-400"></span>
     </div>
       <h3 class="font-bold mb-4">Experience</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+      <p>Fantastic experience with Barn House! The rustic charm, combined with modern amenities, made our stay unforgettable. Impeccable service, cozy atmosphere, and stunning views. Highly recommend for a perfect countryside retreat!</p>
     </div>
     </div>
     <div class="border p-5 rounded-3xl shadow-2xl cursor-zoom-in hover:bg-blue-200">
@@ -258,7 +269,7 @@
       <span class="fa fa-star checked text-purple-400"></span>
     </div>
       <h3 class="font-bold mb-4">Experience</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe  veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+      <p>Fantastic experience with Barn House! The rustic charm, combined with modern amenities, made our stay unforgettable. Impeccable service, cozy atmosphere, and stunning views. Highly recommend for a perfect countryside retreat! </p>
     </div>
     </div>
     <div class="border rounded-3xl p-5 shadow-2xl cursor-pointer hover:bg-blue-200">
@@ -273,7 +284,7 @@
       <span class="fa fa-star checked text-purple-400"></span>
     </div>
       <h3 class="font-bold mb-4">Experience</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe  veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+      <p>Fantastic experience with Barn House! The rustic charm, combined with modern amenities, made our stay unforgettable. Impeccable service, cozy atmosphere, and stunning views. Highly recommend for a perfect countryside retreat!</p>
     </div>
     </div>
     
@@ -288,8 +299,8 @@
       <span class="fa fa-star checked text-teal-400"></span>
       <span class="fa fa-star checked text-purple-400"></span>
     </div>
-      <h3 class="font-bold">Experience</h3>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing  elit. Atque facilis eveniet sapiente ex, saepe veritatis perferendis quaerat laboriosam  modi reiciendis, consectetur molestias </p>
+      <h3 class="font-bold mb-4">Experience</h3>
+      <p>Fantastic experience with Barn House! The rustic charm, combined with modern amenities, made our stay unforgettable. Impeccable service, cozy atmosphere, and stunning views. Highly recommend for a perfect countryside retreat!</p>
     </div>
     </div>
   
@@ -300,7 +311,7 @@
 
 <!-- Rinterio News -------start------->
 
-<section class="py-20 bg-[#eeeeee]">
+<section class="py-20 bg-footer-pattern bg-cover">
 <div class="container mx-auto lg:pl-32 lg:pr-32">
       <div class="text-center">
         <button class="bg-[#ABEF5F] rounded-3xl mb-4 p-1 "><i class="fa fa-long-arrow-right"></i> Let’s Connect</button>
@@ -330,7 +341,6 @@
       </form>
 
 </section>
-
 <!-- Rinterio News-------end------>
 
 <!-- footer ------start------->
